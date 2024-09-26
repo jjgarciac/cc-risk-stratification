@@ -1,0 +1,125 @@
+{
+    "clf_cat": {
+        "electricity": {
+            "target_column": "class",
+            "mapping": {
+                "UP": 1,
+                "DOWN": 0
+            }
+        },
+        "eye_movements": {
+            "target_column": "label",
+            "mapping": null
+        },
+        "covertype": {
+            "target_column": "class",
+            "mapping": {
+                "1": 0,
+                "2": 1
+            }
+        },
+        "albert": {
+            "target_column": "class",
+            "mapping": null
+        },
+        "compas-two-years": {
+            "target_column": "twoyearrecid",
+            "mapping": null 
+        },
+        "default-of-credit-card-clients": {
+            "target_column": "y",
+            "mapping": null 
+        },
+        "road-safety": {
+            "target_column": "SexofDriver",
+            "mapping": null
+        }
+    },
+    "clf_num": {
+        "electricity": {
+            "target_column": "class",
+            "mapping": {
+                "UP": 1,
+                "DOWN": 0
+            }
+        }, 
+        "covertype": {
+            "target_column": "Y",
+            "mapping": {
+                "0": 0,
+                "1": 1
+            }
+        },
+        "pol": {
+            "target_column": "binaryClass",
+            "mapping": {
+                "N": 0,
+                "P": 1
+            }
+        },
+        "house_16H": {
+            "target_column": "binaryClass",
+            "mapping": {
+                "N": 0,
+                "P": 1
+            }
+        },
+        "MagicTelescope": {
+            "target_column": "class",
+            "mapping": {
+                "g": 1,
+                "h": 0 
+            }
+        },
+        "bank-marketing": {
+            "target_column": "Class",
+            "mapping": {
+                "1": 0,
+                "2": 1
+            }
+        },
+        "Bioresponse": {
+            "target_column": "target",
+            "mapping": null
+        },
+        "MiniBooNE": {
+            "target_column": "signal",
+            "mapping": {
+                "False": 0,
+                "True": 1
+            }
+        },
+        "default-of-credit-card-clients": {
+            "target_column": "y",
+            "mapping": null
+        },
+        "Higgs": {
+            "target_column": "target",
+            "mapping": null
+        },
+        "eye_movements": {
+            "target_column": "label",
+            "mapping": null
+        },
+        "Diabetes130US": {
+            "target_column": "readmitted",
+            "mapping": null
+        },
+        "jannis": {
+            "target_column": "class",
+            "mapping": null
+        },
+        "heloc": {
+            "target_column": "RiskPerformance",
+            "mapping": null
+        },
+        "credit": {
+            "target_column": "SeriousDlqin2yrs",
+            "mapping": null
+        },
+        "california": {
+            "target_column": "price_above_median",
+            "mapping": null
+        }
+    }
+}

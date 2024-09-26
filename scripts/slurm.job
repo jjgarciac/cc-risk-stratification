@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source /home/jjgarcia/vm/uq/bin/activate
+
+python src/main.py --dataset $1 --category $2 --nfolds $3 --n_trials $4 --seed $5 --val_size $6 
